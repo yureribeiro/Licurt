@@ -22,3 +22,9 @@
   background-size: cover;
   border-radius: .5rem;
 }
+
+@media (max-width: 600px) {
+  .container-sobre {
+    margin: 2rem 1rem;
+  }
+}

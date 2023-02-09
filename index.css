@@ -51,7 +51,7 @@ header img {
 .container-title {
   gap: 2rem;
   display: flex;
-  padding: 2rem 2rem;
+  padding: 2rem;
 }
 .text-title {
   position: relative;
@@ -186,6 +186,7 @@ form{
 /* SECTION STATISTICS */
 .container-statistcs {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -255,4 +256,92 @@ footer {
 .redes a i {
   padding-right: 1rem;
   font-size: 2rem;
+}
+
+
+/* -------- MOBILE --------- */
+
+@media (max-width: 600px) {
+    body {
+      background-color: #ffff;
+    }
+
+    /* HEADER */
+    .login {
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+    }
+    .login a {
+        padding: .4rem .5rem;
+    }
+   
+    /* TITULO E IMAGEM PRINCIPAL */
+    .container-title {
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: center;
+    }
+    .text-title {
+      position: static;
+    }
+    .title{
+      font-size: 2.3rem;
+    }
+    .p-title{
+      font-size: 1.2rem;
+    }
+    .button-title {
+      font-size: 1rem;
+      padding: .6rem 1.5rem;
+    } 
+    .img-title {
+      width: 100%;
+      position: static;
+    }
+
+    /* LINK CONTAINER */
+    form {
+      width: 70%;
+      padding: 1rem 1.5rem;
+      margin-bottom: 1rem;
+    }
+    .input-link {
+      padding: .4rem;
+    }
+    .button-link {
+      padding: .4rem;
+    }
+
+    /* RESULTADO LINK CURTO */
+    .shorted {
+      width: 70%;
+    }
+    .button-copy{
+     margin-top: .5rem;
+      width: 50%;
+    } 
+
+    /* SECTION STATISTICS */
+    .container-details-statistcs {
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .p-statistcs {
+      text-align: center;
+    }
+    .card-statistcs strong {
+      font-size: 1.3rem;
+    }
+    .card-statistcs p {
+      font-size: 1.2rem;
+    }
+
+    /* FOOTER */
+    footer {
+      padding: 1rem;
+    }
+    .list-company {
+      gap: 1rem;
+    }
 }
