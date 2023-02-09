@@ -203,6 +203,7 @@ form{
 .container-details-statistcs {
   display: flex;
   gap: 1rem;
+  flex-wrap: wrap;
 }
 .card-statistcs {
   display: flex;
@@ -210,6 +211,7 @@ form{
   justify-content: center;
   align-items: center;
   text-align: center;
+  
   gap: .5rem;
   width: 15rem;
   border: .1rem solid transparent;
@@ -256,6 +258,25 @@ footer {
 .redes a i {
   padding-right: 1rem;
   font-size: 2rem;
+}
+
+@media (max-width: 900px) {
+  .container-details-statistcs {
+    flex-direction: column;
+  }
+  .container-title {
+    gap: 1rem;
+    flex-direction: column;
+    padding: 1;
+  }
+  .img-title {
+    position: relative;
+    width: 100%;
+    left: 6rem;
+  }
+  form {
+    width: 70%;
+  }
 }
 
 
