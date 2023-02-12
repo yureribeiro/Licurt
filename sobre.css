@@ -19,6 +19,7 @@
   color: #ffff;
   background-image: url(/images/bg-shorten-desktop.svg);
   background-color: #264849;
+  box-shadow: 10px 10px 30px rgb(9, 19, 16);
   background-size: cover;
   border-radius: .5rem;
 }
