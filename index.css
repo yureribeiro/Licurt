@@ -77,6 +77,7 @@ header img {
   margin: .5rem 0;
 }
 .button-title {
+  color: #000;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   cursor: pointer;
   background-color: #58bec2;
@@ -125,6 +126,7 @@ form{
   outline: none;
 }
 .button-link {
+  color: #000;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   cursor: pointer;
   background-color: #58bec2;
